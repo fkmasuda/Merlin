@@ -7,7 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MerlinDoc.h"
 
 @interface MasterViewController : NSViewController
+
+@property (strong) NSMutableArray *tasks;
 
 @end

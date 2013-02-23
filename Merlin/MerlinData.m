@@ -9,7 +9,7 @@
 
 @implementation MerlinData
 
-- (id)initWithTitle:(NSString*)title rating:(BOOL)completed {
+- (id)initWithTitle:(NSString*)title completed:(BOOL)completed {
     if ((self = [super init])) {
         self.title = title;
         self.completed = completed;

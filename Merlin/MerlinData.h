@@ -13,6 +13,6 @@
 @property (strong) NSString *title;
 @property (assign) BOOL completed;
 
-- (id)initWithTitle:(NSString*)title rating:(BOOL)completed;
+- (id)initWithTitle:(NSString*)title completed:(BOOL)completed;
 
 @end
