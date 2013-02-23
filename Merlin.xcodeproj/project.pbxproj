@@ -16,6 +16,7 @@
 		95C543C616D9567000CF8D0E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C543C416D9567000CF8D0E /* MasterViewController.m */; };
 		95C543C716D9567000CF8D0E /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95C543C516D9567000CF8D0E /* MasterViewController.xib */; };
 		95C543CC16D95B4100CF8D0E /* MerlinData.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C543CB16D95B4100CF8D0E /* MerlinData.m */; };
+		95C543CF16D9613C00CF8D0E /* MerlinDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C543CE16D9613C00CF8D0E /* MerlinDoc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		95C543C516D9567000CF8D0E /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 		95C543CA16D95B4100CF8D0E /* MerlinData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerlinData.h; sourceTree = "<group>"; };
 		95C543CB16D95B4100CF8D0E /* MerlinData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerlinData.m; sourceTree = "<group>"; };
+		95C543CD16D9613C00CF8D0E /* MerlinDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerlinDoc.h; sourceTree = "<group>"; };
+		95C543CE16D9613C00CF8D0E /* MerlinDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerlinDoc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 			children = (
 				95C543CA16D95B4100CF8D0E /* MerlinData.h */,
 				95C543CB16D95B4100CF8D0E /* MerlinData.m */,
+				95C543CD16D9613C00CF8D0E /* MerlinDoc.h */,
+				95C543CE16D9613C00CF8D0E /* MerlinDoc.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				95C543BA16D9547400CF8D0E /* AppDelegate.m in Sources */,
 				95C543C616D9567000CF8D0E /* MasterViewController.m in Sources */,
 				95C543CC16D95B4100CF8D0E /* MerlinData.m in Sources */,
+				95C543CF16D9613C00CF8D0E /* MerlinDoc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
