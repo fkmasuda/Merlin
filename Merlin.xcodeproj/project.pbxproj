@@ -50,14 +50,14 @@
 		95C543CD16D9613C00CF8D0E /* MerlinDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerlinDoc.h; sourceTree = "<group>"; };
 		95C543CE16D9613C00CF8D0E /* MerlinDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerlinDoc.m; sourceTree = "<group>"; };
 		95C543D116D965C000CF8D0E /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
-		95C543D216D965C000CF8D0E /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
-		95C543D316D965C000CF8D0E /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
-		95C543D416D965C000CF8D0E /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
-		95C543D516D965C000CF8D0E /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
-		95C543D616D965C000CF8D0E /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
-		95C543D716D965C000CF8D0E /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
-		95C543D816D965C000CF8D0E /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
-		95C543D916D965C000CF8D0E /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		95C543D216D965C000CF8D0E /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = centipede.jpg; path = ScaryBugs/centipede.jpg; sourceTree = "<group>"; };
+		95C543D316D965C000CF8D0E /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = centipedeThumb.jpg; path = ScaryBugs/centipedeThumb.jpg; sourceTree = "<group>"; };
+		95C543D416D965C000CF8D0E /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ladybug.jpg; path = ScaryBugs/ladybug.jpg; sourceTree = "<group>"; };
+		95C543D516D965C000CF8D0E /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ladybugThumb.jpg; path = ScaryBugs/ladybugThumb.jpg; sourceTree = "<group>"; };
+		95C543D616D965C000CF8D0E /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = potatoBug.jpg; path = ScaryBugs/potatoBug.jpg; sourceTree = "<group>"; };
+		95C543D716D965C000CF8D0E /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = potatoBugThumb.jpg; path = ScaryBugs/potatoBugThumb.jpg; sourceTree = "<group>"; };
+		95C543D816D965C000CF8D0E /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wolfSpider.jpg; path = ScaryBugs/wolfSpider.jpg; sourceTree = "<group>"; };
+		95C543D916D965C000CF8D0E /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wolfSpiderThumb.jpg; path = ScaryBugs/wolfSpiderThumb.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +111,14 @@
 		95C543AC16D9547400CF8D0E /* Merlin */ = {
 			isa = PBXGroup;
 			children = (
+				95C543D216D965C000CF8D0E /* centipede.jpg */,
+				95C543D316D965C000CF8D0E /* centipedeThumb.jpg */,
+				95C543D416D965C000CF8D0E /* ladybug.jpg */,
+				95C543D516D965C000CF8D0E /* ladybugThumb.jpg */,
+				95C543D616D965C000CF8D0E /* potatoBug.jpg */,
+				95C543D716D965C000CF8D0E /* potatoBugThumb.jpg */,
+				95C543D816D965C000CF8D0E /* wolfSpider.jpg */,
+				95C543D916D965C000CF8D0E /* wolfSpiderThumb.jpg */,
 				95C543D016D965C000CF8D0E /* ScaryBugs */,
 				95C543C916D959D300CF8D0E /* Model */,
 				95C543C816D959B700CF8D0E /* GUI */,
@@ -159,14 +167,6 @@
 			isa = PBXGroup;
 			children = (
 				95C543D116D965C000CF8D0E /* attribution.txt */,
-				95C543D216D965C000CF8D0E /* centipede.jpg */,
-				95C543D316D965C000CF8D0E /* centipedeThumb.jpg */,
-				95C543D416D965C000CF8D0E /* ladybug.jpg */,
-				95C543D516D965C000CF8D0E /* ladybugThumb.jpg */,
-				95C543D616D965C000CF8D0E /* potatoBug.jpg */,
-				95C543D716D965C000CF8D0E /* potatoBugThumb.jpg */,
-				95C543D816D965C000CF8D0E /* wolfSpider.jpg */,
-				95C543D916D965C000CF8D0E /* wolfSpiderThumb.jpg */,
 			);
 			path = ScaryBugs;
 			sourceTree = "<group>";

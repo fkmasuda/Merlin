@@ -11,6 +11,6 @@
 
 @interface MasterViewController : NSViewController
 
-@property (strong) NSMutableArray *tasks;
+@property (strong, nonatomic) NSMutableArray *tasks;
 
 @end
